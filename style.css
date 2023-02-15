@@ -1,0 +1,121 @@
+body {
+  background-color: #1B2473;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+.registration {
+  height: 412px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 82px auto 0;
+}
+
+.container {
+  padding: 11px;
+}
+
+.notice {
+  display: inline-block;
+  width: 109px;
+  padding-top: 11px;
+  position: relative;
+  left: 480px;
+  font-size: 14px;
+  color: #1A226B;
+  cursor: pointer;
+}
+.name {
+ width: 302px;
+ color: #787878;
+ font-size: 50px;
+ margin: 0 auto 13px;
+ line-height: 50px;
+}
+
+.point {
+  position: relative;
+  margin: 0 46px 13px 45px;
+}
+
+.errorEmail, .errorPass, .errorCheck {
+  display: none;
+  width: 100%;
+  font-weight: 500;
+  font-size: 10px;
+  color: #CB2424;
+}
+
+.input {
+  box-sizing:  border-box;
+  height: 49px;
+  width: 509px;
+  border: 2px solid #787878;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 14px 0 7px 15px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #787878
+}
+input::placeholder {
+  font-size: 28px;
+  font-weight: 700;
+  color:#CCCCCC
+}
+.point #policy {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 2px solid;
+  border-color: #787878;
+  border-radius: 7px;
+}
+#policy:checked {
+  position: relative;
+  background: url(./img/check\ mark.svg) center no-repeat;
+}
+label {
+  display: block;
+  padding-left: 8px;
+  font-size: 16px;
+  color: #787878;
+}
+.star {
+  position: absolute;
+  left: -11px;
+  font-size: 18px;
+  color: #787878;
+}
+.rules {
+  color: #787878;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 0 0 5px;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+}
+
+.button {
+  display: block;
+  width: 180px;
+  height: 52px;
+  margin: 56px auto 26px;
+  background-color: #1A226B;
+  border-radius: 10px;
+  border-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+

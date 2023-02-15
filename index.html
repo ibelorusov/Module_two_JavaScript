@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Exam</title>
+</head>
+<body>
+   <form class="registration">
+    <span class="notice">
+      Авторизоваться
+    </span>
+    <p class="name">
+      Регистрация
+    </p>
+
+    <div class="point" id="point1">
+      <label class="label" for="email" id="label1">Email</label>
+
+      <span class="star" id="star1">*</span>
+
+      <input class="input" type="email" id="email" placeholder="Введите email">
+
+      <span class="errorEmail">Поле обязательно для заполнения</span>
+    </div>
+    <div class="point" id="point2">
+      <label class="label" for="password" id="label2">Пароль</label>
+
+      <span class="star" id="star2">*</span>
+
+      <input class="input" type="password" id="password" placeholder="Введите пароль">
+
+      <span class="errorPass">Поле обязательно для заполнения</span>
+    </div>
+    <div class="point check" id="point3">
+      <div class="box">
+
+        <span class="star" id="star3">*</span>
+
+        <input type="checkbox" id="policy" checked>
+
+        <label class="rules" for="policy">Я согласен с<a class="rules" href="#">Правилами пользования приложением</a></label>
+      </div>
+      <span class="errorCheck">Поле обязательно для заполнения</span>
+    </div>
+
+    <input class="button" type="submit" value="Регистрация">
+    </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
